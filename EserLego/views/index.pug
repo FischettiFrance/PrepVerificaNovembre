@@ -1,0 +1,14 @@
+doctype html
+html
+ head
+   title Castello
+   link(rel='stylesheet', href='/css/style.css')
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+ body
+   header.header
+         h1 castello
+   article.container
+     each castello in castelli
+       div
+         img(src=`/images/${castello.img}`)
+         a(href=`/istruzioni?id=${castello.setNumber}`) View istruzioni

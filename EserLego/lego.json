@@ -1,0 +1,21 @@
+{
+"castles":[{
+  "SetNumber": "LEGO 0375",
+  "SetTheme": "Castle",
+  "SetName": "Yellow Castle",
+  "legoInstructionsYear": 1978,
+  "img":"CastleYallow.jpg"
+  },{
+  "SetNumber": "LEGO 0383",
+  "SetTheme": "Castle",
+  "SetName": "Knights Tournamente",
+  "legoInstructionsYear": 1979,
+  "img":"CastleTwo.jpg"
+}, {
+  "SetNumber": "LEGO 0677",
+  "SetTheme": "Castle",
+  "SetName": "Knights Procession",
+  "legoInstructionsYear": 1979,
+  "img":"CastleThird.jpg"
+}]
+}
