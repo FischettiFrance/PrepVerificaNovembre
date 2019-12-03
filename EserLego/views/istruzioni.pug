@@ -1,0 +1,15 @@
+doctype html
+html
+ head
+   title Istruzioni
+   link(rel='stylesheet', href='/css/style.css')
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+ body
+   header.header
+         h1 #{castle.SetNumber}
+   article.container
+         a #{castle.SetTheme}
+         a #{castle.SetName}
+         a #{castle.legoInstructionsYear}
+         each image in castle.istr
+           img(src=`/images/${image}`)
